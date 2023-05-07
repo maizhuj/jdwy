@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>主页</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            body{
+                background: linear-gradient(to right,#ff6df6,#48c3ff);
+            }
+
+            img{
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                border: 1px solid black;
+                margin-top: 120px;
+                margin-left: 180px;
+                animation: action 3s linear infinite;
+            }
+            
+            h1{
+                font-size: 60px;
+                margin-top: 100px;
+                margin-left: 220px;
+                color: #ffb934;
+                letter-spacing: 60px;
+                
+            }
+
+            P{
+                font-size: 30px;
+                margin-top: 60px;
+                margin-left: 140px;
+                color: #52ff96;
+                letter-spacing: 10px;
+            }
+
+            p:hover{
+                background: linear-gradient(to right,#40befd,#fa64f0);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .left-box{
+                float: left;
+            }
+
+            .right-box{
+                float: right;
+            }
+
+            .box{
+                width: 900px;
+                height: 300px;
+                background: linear-gradient(to left,#ff6df6,#48c3ff);
+                border: 1px solid black;
+                border-radius: 40px;
+                margin-top: 80px;
+                margin-right: 100px;
+            }
+
+            h2{
+                font-size: 40px;
+                text-indent: 2em;
+                padding-top: 50px;
+                letter-spacing: 10px;
+                line-height: 60px;
+                margin: 0 50px;
+                color: white;
+            }
+
+            .mian{
+                font-size: 40px;
+                text-indent: 2em;
+                padding-top: 30px;
+                letter-spacing: 10px;
+                line-height: 60px;
+                margin: 0 50px;
+                color: white;
+            }
+
+            hr{
+                width: 400px;
+                margin-left: 120px;
+            }
+
+            h1:hover{
+                color: #48c3ff;
+            }
+            
+            h2:hover{
+                color: black;
+            }
+            
+            @keyframes action{
+                100%{
+                transform: rotate(360deg);
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="left-box">
+        <div class="img">
+            <img src="touxiang.jpg">
+        </div>
+        <h1>徐来</h1>
+        <br>
+        <hr>
+        <p>"欢迎来到我的主页"</p>
+        </div>
+        <div class="right-box">
+            <div class="box">
+                <h2>生命中没有四时不变的风景，只要心永远朝着阳光，你就会发现，每一束阳光都闪着希望的光芒。</h2>
+            </div>
+            <div class="box">
+                <h2 class="mian">把握每次生活带来的感悟，变成更好的自己。不管雨下多久，最终彩虹总会出现。不管你有多难过，始终要相信，幸福就在不远处!</h2>
+            </div>
+        </div>
+    </body>
+</html>
